@@ -28,7 +28,7 @@ namespace EsercitazioneTest
             double[] valori = new double[] { 4, 6, 7, -9.1 };
             double min = GestioneTest.MisuraMistariosa(valori);
             double valore_aspettato = 3;
-            Assert.AreEqual(valore_aspettato,min);
+            Assert.AreEqual(valore_aspettato, min);
         }
         [TestMethod]
         public void TestMisurazioneMisteriosa_1()
